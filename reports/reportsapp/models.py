@@ -1,3 +1,8 @@
+from django.utils import timezone
 from django.db import models
 
-# Create your models here.
+
+class Report(models.Model):
+    creation_date = models.DateField('Дата создания',
+                                         default=timezone.now)
+    content = models.TextField('Содержимое')
