@@ -1,3 +1,3 @@
 /venv/
-reports/db.sqlite3
+/reports/db.sqlite3
 /reports/reportsapp/migrations/
